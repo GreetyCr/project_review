@@ -199,6 +199,12 @@ aside .text-next {
   align-items: center;
 }
 
+.details p,
+.links i,
+.links span {
+  color: #aaa;
+}
+
 aside .text-next i {
   margin-left: 5px;
 }
@@ -218,12 +224,6 @@ aside .video .thumb img {
 aside .video .details {
   margin-top: 15px;
   margin-left: 20px;
-}
-
-.details p,
-.links i,
-.links span {
-  color: #aaa;
 }
 
 .details p,
