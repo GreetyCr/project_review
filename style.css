@@ -199,16 +199,16 @@ aside .text-next {
   align-items: center;
 }
 
-aside .text-next p {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 0.8rem;
-  color: #aaa;
+aside .text-next i {
+  margin-left: 5px;
 }
 
 aside .video {
   display: flex;
+}
+
+.card img {
+  margin-right: 10px;
 }
 
 aside .video .thumb img {
@@ -223,7 +223,7 @@ aside .video .details {
 .details p,
 .links i,
 .links span {
-  color: #aaaaaa;
+  color: #aaa;
 }
 
 .details p,
@@ -242,10 +242,18 @@ aside .video .details .detail {
   font-size: 0.8rem;
 }
 
-aside .text-next i {
-  margin-left: 5px;
+.video-detail p {
+  padding-right: 20px;
+  margin-bottom: 10px;
 }
 
+aside .text-next p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: #aaa;
+}
 
 hr {
   border: 0;
@@ -254,17 +262,13 @@ hr {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-/*? CARD */
+/* CARD */
 
 .card {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-.card img {
-  margin-right: 10px;
 }
 
 .card__logo {
@@ -282,7 +286,7 @@ hr {
 }
 
 .publisher div p:last-child {
-  color: #aaaaaa;
+  color: #aaa;
   font-size: 0.8rem;
 }
 
@@ -296,14 +300,9 @@ hr {
   font-size: 0.9rem;
 }
 
-.video-detail p {
-  padding-right: 20px;
-  margin-bottom: 10px;
-}
-
 .video-detail a {
   text-decoration: none;
-  color: #aaaaaa;
+  color: #aaa;
   font-size: 0.8rem;
 }
 
